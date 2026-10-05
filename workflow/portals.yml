@@ -1,0 +1,26 @@
+title_filter:
+  positive:
+    - "AI Engineer"
+    - "Applied AI"
+    - "Full Stack AI"
+    - "Full-Stack AI"
+    - "Machine Learning Engineer"
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "Frontend Engineer"
+    - "LLM"
+  negative:
+    - "Junior"
+    - "Entry Level"
+    - "Internship"
+    - "word:Intern"
+
+search_queries:
+  - name: Remote AI engineering
+    query: 'site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io OR site:jobs.lever.co ("AI Engineer" OR "Applied AI Engineer" OR "Full-Stack AI Engineer" OR "Software Engineer") remote contract'
+    enabled: true
+
+tracked_companies:
+  - name: Snowflake
+    careers_url: https://jobs.ashbyhq.com/snowflake
+    enabled: true

@@ -1,0 +1,5 @@
+.DS_Store
+
+# The live, upstream-linked clone of career-ops is intentionally NOT tracked here
+# (it is a separate git repo). The pushable workflow snapshot lives in ./workflow.
+/career-ops/

@@ -1,0 +1,79 @@
+candidate:
+  full_name: "Muhammad Umer"
+  title: "AI Engineer | Full-Stack Product"
+  email: "mumer.2k1@gmail.com"
+  phone: "+92-3153271442"
+  location: "Karachi, Pakistan"
+  linkedin: "linkedin.com/in/mumer2001"
+  portfolio_url: "https://umer2k1.com"
+  github: "github.com/umer-2k1"
+
+target_roles:
+  primary:
+    - "AI Engineer"
+    - "Applied AI Engineer"
+    - "Full-Stack AI Engineer"
+  experience_years: 4
+  archetypes:
+    - name: "AI / Applied AI Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Full-Stack AI Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Backend / Software Engineer"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Frontend Engineer"
+      level: "Mid"
+      fit: "adjacent"
+
+narrative:
+  headline: "AI engineer and full-stack product builder shipping LLM-powered systems end-to-end"
+  exit_story: "Building applied AI, agentic workflows, retrieval systems, and full-stack products for remote and contract opportunities."
+  superpowers:
+    - "End-to-end LLM systems: retrieval, prompts, guardrails, deployment, and monitoring"
+    - "Agentic workflows and automation"
+    - "Full-stack product engineering across Python, TypeScript, Node.js, and databases"
+  preferences:
+    - "Startup environments"
+    - "High-ownership product-building roles"
+    - "Agentic AI"
+    - "AI automation"
+  proof_points:
+    - name: "Refill Arena"
+      url: "https://refillarena.com/en"
+      hero_metric: "Built from zero to $1M+ revenue across 3,200+ brands and 190+ countries"
+    - name: "AI Virtual Trainer"
+      hero_metric: "Increased user engagement by 40%"
+
+compensation:
+  target_range: "$3,000–$4,000 USD/month base, or $30–$40 USD/hour"
+  currency: "USD"
+  minimum: "$3,000 USD/month base or $30 USD/hour"
+  location_flexibility: "Contract-based work prioritized; remote anywhere, including US-only and Europe-only remote roles, remote employment, remote contracting, and US-based on-site roles are in scope. Flag work-authorization or residency restrictions for confirmation; do not assume eligibility."
+
+seniority:
+  target: "Senior or mid-level"
+  exclude:
+    - "Intern"
+    - "Internship"
+    - "Very junior"
+
+location:
+  country: "Pakistan"
+  city: "Karachi"
+  visa_status: "Authorized to work in the United States; no current or future sponsorship required."
+  authorized_in:
+    - "United States"
+  needs_sponsorship: false
+
+language:
+  output: en
+
+spend_tier: standard
+
+cv:
+  output_format: html
+  template: jake
+  sections: [summary, skills, experience, projects, education]

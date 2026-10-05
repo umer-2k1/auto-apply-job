@@ -1,0 +1,12 @@
+# Snapshot ignore list — this is a personal copy, so personalization IS tracked.
+# (The live career-ops clone keeps its own stricter .gitignore.)
+.DS_Store
+node_modules/
+data/cache/
+data/parser-output/
+**/__pycache__/
+*.log
+.env
+.env.*
+!.env.example
+output/*.pdf
