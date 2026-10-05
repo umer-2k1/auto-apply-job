@@ -87,6 +87,36 @@ Pulled all 30 open engineering roles (public pages; no login needed). **The "Vis
 
 **Takeaway:** YC/WaaS is **excellent for lean/founding roles but bad for remote-from-Pakistan** — 29 of 30 require US work authorisation, and all are US-located. It only makes sense as a channel if your **US authorisation covers US-remote employment**, or companies make contractor exceptions.
 
+## 🧭 Wellfound (startups + remote)
+
+| Role | Company | Mode | Location | Posted | Apply |
+|---|---|---|---|---|---|
+| **Founding Product Engineer** ⭐ | Specsight | **Remote only** | **Europe** (+2) | 1d | [link](https://wellfound.com/jobs/4808060) |
+| Forward Deployed Engineer | TradeEngage | Onsite or remote | Miami Beach (+1) | today | [link](https://wellfound.com/jobs/4803739) |
+| Backend–Database Engineer | REcollab | Onsite or remote | Chattanooga (+1) | 4d | [link](https://wellfound.com/jobs/4781698) |
+
+**Specsight** is the standout of this whole batch: **founding + remote-only + Europe** — lean team, high hiring odds, and EU-remote (workable from Pakistan if they hire contractors).
+
+## Source status (feeds the future scraping playbooks)
+
+| Source | Best method | Status / notes |
+|---|---|---|
+| **choppingblock.ai** | HTTP (SSR + JSON-LD) | ✅ works — see its own playbook |
+| **Airtree / Blackbird / Antler** (Getro) | Browser; `jobs.<vc>.vc/jobs?q=<kw>` | ✅ works; API token-gated; `workMode` field is coarse ("on_site") |
+| **Work at a Startup (YC)** | HTTP (`/jobs/<id>`) | ✅ public job pages expose **batch + Visa + salary**; roles are **US-work-auth gated** |
+| **Wellfound** | Browser | ✅ loads; shows remote-only/location/date/YC batch; list caps ~50 and skews non-eng |
+| **Jobicy** | HTTP API `jobicy.com/api/v2/remote-jobs?geo=&industry=` | ✅ works (geo + level) |
+| **WeWorkRemotely** | HTTP RSS | ✅ works but feed is thin/older |
+| **Remotive** | HTTP API | ✅ works; small software-dev set |
+| **RemoteOK** | HTTP API | ✅ works; 100-item latest snapshot |
+| **Himalayas** | HTTP API `?limit=&offset=` | ⚠️ works but offset paging is broken (only first 100) |
+| JustJoin.it | API | ❌ 503 |
+| NoFluffJobs | POST API | ❌ needs `salaryCurrency`+`salaryPeriod`; 500 |
+| startup.jobs | API/HTTP | ❌ 403 |
+| ai-jobs.net | HTTP | ❌ redirects to foorilla.com |
+| DuckDuckGo HTML | `webfetch` tool only | ⚠️ scripted fetch blocked |
+| YC company directory | HTTP `/companies/<slug>` | ✅ 404=not YC, 200=YC (+batch, team size) |
+
 ## Notes & next steps
 
 - **Why AU is thin here:** Getro boards render every role as `on_site` (coarse field), and AU companies often require AU work rights. **Firmable is the standout** — it posts the same Applied-AI-Lead role in **Kolkata, India**, signalling offshore-friendly hiring.
