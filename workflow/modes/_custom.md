@@ -60,7 +60,9 @@ When Muhammad explicitly asks to apply to a role despite its score or recommenda
      - Show the per-step token breakdown after a batch run.
      - Save PDFs date-first: YYYY-MM-DD-company.pdf -->
 
-(none yet -- add yours above)
+CV rules:
+- Section order: **Professional Summary → Skills → Work Experience → Projects → Education** (also enforced machine-side via `config/profile.yml` → `cv.sections`).
+- **Omit the "Core Competencies" section.** Keep a single "Skills" section and fold any unique competency terms into it — a separate competencies block is redundant next to Skills and is not required by ATS.
 
 ## Off-Limits
 
