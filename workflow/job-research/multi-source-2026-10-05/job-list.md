@@ -7,7 +7,8 @@
 
 - **Roles:** Full-Stack AI Engineer · AI Engineer · Applied AI Engineer · Software Engineer · Full-Stack Engineer · **Founding Engineer**
 - **Prioritised:** 🟢 **lean / early-stage teams** (small, not big companies) · 🟢 **Founding Engineer** roles (highest hiring odds) · 🟢 remote-friendly
-- **Regions:** 🇦🇺 Australia (priority) → 🇪🇺 Europe / 🇵🇱 Poland → 🇦🇪 UAE/MENA → 🌏 APAC → 🇨🇦 Canada → 🇺🇸 US (where remote/contract is possible)
+- **Regions:** 🇦🇺 Australia (priority) → 🇪🇺 Europe / 🇵🇱 Poland → 🇦🇪 UAE/MENA → 🌏 APAC → 🇨🇦 Canada → 🇺🇸 **US only where the company hires international contractors (not US-resident/W2-only)**
+- **Decision (2026-10-05):** US-work-authorisation-gated roles are **excluded unless** the employer hires contractors abroad. This rules out the YC/WaaS set below (see that section).
 - **Excluded:** big companies, on-site-only + relocation, research/pure-ML, stale (>15 days), non-engineering
 
 > **Remote-from-Pakistan confidence:** 🟢 strong · 🟡 plausible (verify work-authorisation) · 🔴 likely restricted.
@@ -54,7 +55,9 @@
 
 ---
 
-## 🇺🇸 Y Combinator (Work at a Startup) — engineering roles with visa gating
+## 🇺🇸 Y Combinator (Work at a Startup) — ⛔ DEPRIORITISED (US-work-auth gated)
+
+> **Excluded by decision:** US roles only count if the employer hires contractors abroad. These YC roles are **US-work-authorisation-gated** (29/30 say "US citizen/visa only") **and** US-located — so they don't fit. **Re-include only** if a specific company is known to hire international contractors.
 
 Pulled all 30 open engineering roles (public pages; no login needed). **The "Visa" field is decisive for remote-from-Pakistan.** Almost every YC role is gated to **US work authorisation** — they are also **US-located (on-site)**, so they fit only if you can work US roles (your profile notes US authorisation) *and* the company allows remote.
 
