@@ -54,6 +54,36 @@
 
 ---
 
+## 🇺🇸 Y Combinator (Work at a Startup) — engineering roles with visa gating
+
+Pulled all 30 open engineering roles (public pages; no login needed). **The "Visa" field is decisive for remote-from-Pakistan.** Almost every YC role is gated to **US work authorisation** — they are also **US-located (on-site)**, so they fit only if you can work US roles (your profile notes US authorisation) *and* the company allows remote.
+
+| Company | Batch | Role | Location | Visa / work auth |
+|---|---|---|---|---|
+| Hive | S14 | Senior Software Engineer, **Machine Learning** | Remote (CA) | ✅ **US citizenship/visa NOT required** |
+| GiveCampus | S15 | Full Stack / Senior SWE | Remote (US) | ❌ US citizen/visa only |
+| Hive | S14 | Senior SWE, Data Systems | Remote (US) | ❌ US citizen/visa only |
+| Ignition Benefits | F26 | **Founding Member of Technical Staff** | San Jose, US | ❌ US citizen/visa only |
+| Petrarch | S26 | **Founding Engineer** | San Francisco, US | ❌ US citizen/visa only |
+| screenpipe | S26 | **Founding Engineer** / FDE | San Francisco, US | ❌ US citizen/visa only |
+| Marble | S26 | **Founding Engineer** | New York, US | ❌ US citizen/visa only |
+| COACH | S26 | **Founding AI Engineer / Product Eng** | San Francisco, US | ❌ US citizen/visa only |
+| Arzana | P26 | Founding GTM Engineer | New York, US | ❌ US citizen/visa only |
+| Luca IQ | S26 | AI Engineer / Frontend | Chicago, US | ❌ US citizen/visa only |
+| LemonLime | S26 | AI Engineer | San Francisco, US | ❌ US citizen/visa only |
+| CharacterQuilt | P26 | MTS Agent Systems / Staff SWE | New York, US | ❌ US citizen/visa only |
+| Rational | S26 | Forward-Deployed Engineer | San Francisco, US | ❌ US citizen/visa only |
+| Neuromorphic | S26 | Forward Deployed Engineer | San Francisco, US | ❌ US citizen/visa only |
+| Torus | S26 | AI Engineer (physical infra) | San Francisco, US | ❌ US citizen/visa only |
+| Mason | W16 | SWE Backend / Full Stack | Seattle, US | ❌ US citizen/visa only |
+| Ironclad | S15 | Senior SWE, AI | SF / Indianapolis / NY | ❌ US citizen/visa only |
+| Wefunder | W13 | Full Stack Product Engineer | San Francisco, US | ❌ US citizen/visa only |
+| Locke | S26 | Member of Technical Staff | SF / Washington DC | ❌ US citizen/visa only |
+| TryNearby | S26 | Harness Engineer | CA, US | ❌ US citizen/visa only |
+| Edgerun | S26 | Software Engineer | Palo Alto, US | ❌ US citizen/visa only |
+
+**Takeaway:** YC/WaaS is **excellent for lean/founding roles but bad for remote-from-Pakistan** — 29 of 30 require US work authorisation, and all are US-located. It only makes sense as a channel if your **US authorisation covers US-remote employment**, or companies make contractor exceptions.
+
 ## Notes & next steps
 
 - **Why AU is thin here:** Getro boards render every role as `on_site` (coarse field), and AU companies often require AU work rights. **Firmable is the standout** — it posts the same Applied-AI-Lead role in **Kolkata, India**, signalling offshore-friendly hiring.
