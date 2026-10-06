@@ -28,3 +28,4 @@ Jobs that could **not** be auto-submitted during an apply run. The agent records
 | 2026-10-07 | Ryz Labs | Data Engineer (contract) | https://jobs.lever.co/RyzLabs/3fedcdc7-c3aa-418b-899c-34e330b06a09/apply | Lever location-dropdown validation would not clear | Retry/manual |
 | 2026-10-07 | Gramian Consulting | Cybersecurity & SWE Specialist (AI Projects, contract) | https://apply.workable.com/j/4B6565637F/apply | Submit would not confirm (required radio/validation) | Retry/manual |
 | 2026-10-07 | webAI | CRDT Software Engineer | https://jobs.ashbyhq.com/webai/ac849bd2-1fd6-4fef-bbbb-a903d3813214/application | Ashby validation loop (Resume/Location/Auth keep clearing) | Retry/manual |
+| 2026-10-07 | Raydar | Senior Software Engineer (US, agency) | https://apply.workable.com/j/B842F2F7BC/apply | Submit would not confirm (validation) | Retry/manual |
