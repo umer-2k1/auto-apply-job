@@ -115,16 +115,18 @@ The One CLI is installed and authenticated on this machine (account: mumer.2k1@g
 ### ⚠️ Use the CLI, NOT the MCP
 The `one` **MCP** tools in this harness resolve to a *different One environment* — Gmail exec there fails with *"this connection belongs to a different environment"*. **Ignore the MCP; always use the `one` CLI**, which is authenticated and sees the Gmail connection.
 
-**Connection key (Gmail):** `live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80`
+**Connection key (Gmail):** resolved at **runtime** — never commit it. Get it with `one --agent list` (or export `ONE_GMAIL_KEY`).
 
 **Read a verification/security code (verified working):**
 ```bash
-one --agent actions execute gmail \
-  "conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA" \
-  "live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80" \
-  -d '{"connectionKey":"live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80","numberOfEmails":5,"query":"subject:(security code) newer_than:2d","format":"full"}'
+scripts/one-gmail-code.sh "subject:(security code) newer_than:2d" 5
 ```
-The actionId `conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA` = Gmail "Get Emails" (search/list, `format:"full"|"metadata"`). Helper: `scripts/one-gmail-code.sh`. Env: if `one` is not on PATH, use `~/.nvm/versions/node/v22.23.1/bin/one`.
+The helper (`scripts/one-gmail-code.sh`) resolves the Gmail connection key from `one --agent list` at runtime. Action id `conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA` = Gmail "Get Emails" (`format:"full"|"metadata"`). If `one` isn't on PATH, use `~/.nvm/versions/node/v22.23.1/bin/one`.
+
+### 🔒 Security — never commit secrets
+- **Never commit connection keys, One API keys, tokens, or cookies.** The One API key lives only in `~/.one/config.json` (0600).
+- This project repo must stay **private** — it holds personal data (CV, phone/email, tracker, reports).
+- If a key/token is ever exposed, **rotate it**: revoke the One API key and reconnect (`one logout` → `one init`), or disconnect/reconnect the platform on One.
 
 ## Off-Limits
 
