@@ -11,6 +11,7 @@ Jobs that could **not** be auto-submitted during an apply run. The agent records
 | 2026-10-07 | Baseten | Software Engineer - Partner Platform | https://jobs.ashbyhq.com/baseten/57204e3c-1431-49c5-919c-4fff65f5c3a5/application | **Hybrid — San Francisco** | N/A — on-site requirement |
 | 2026-10-07 | MeridianLink | AI Engineer II - Trust & Explainability | https://jobs.ashbyhq.com/meridianlink/e6f8bdc7-0859-45b9-bbc6-fdacfe402319/application | Requires **personal data not on file** (age range, EEO) + **US-resident role** | Add age range / EEO preference to profile, or skip US-resident roles |
 | 2026-10-07 | Ema | Platform Engineer, US | https://jobs.ashbyhq.com/ema/c57b5f2b-1793-41e8-91d4-ed33f1f0daca/application | **Posting expired** ("Job not found") | None — already closed |
+| 2026-10-07 | Cur AI (Curai) | Senior Software Engineer, Agentic AI | https://jobs.lever.co/curai/cd31b67b-d83c-466a-ac55-cfa4c2ec4237/apply | **US-resident W2 role** — required "What state do you currently reside in?" | US residency, or skip non-contractor US roles |
 
 **Typical blockers:** login required · captcha/anti-bot · account creation · email-verification · resume-parser rejection · unsupported file · site down.
 **What's needed:** the single manual step or credential *you* provide — you log in in the browser tab, solve the captcha, or paste the missing answer.

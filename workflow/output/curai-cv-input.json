@@ -1,0 +1,85 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Muhammad Umer",
+    "title": "AI Engineer",
+    "phone": "+92-3153271442",
+    "email": "mumer.2k1@gmail.com",
+    "linkedin": { "url": "https://www.linkedin.com/in/mumer2001/", "display": "linkedin.com/in/mumer2001" },
+    "github": { "url": "https://github.com/umer-2k1", "display": "github.com/umer-2k1" },
+    "portfolio": { "url": "https://umer2k1.com", "display": "umer2k1.com" },
+    "location": "Karachi, Pakistan · Remote"
+  },
+  "summary": "AI engineer with four years building and shipping production LLM and agentic systems end to end. I design multi-step, tool-using agents with retrieval, prompt engineering and output guardrails, plus evaluation and monitoring — delivered in a regulated healthcare setting. Strong Python, LangChain/LangGraph, RAG and APIs; I own the full loop from prototype to production and focus on reliability, latency and cost.",
+  "experience": [
+    {
+      "company": "Sybrid Private Limited",
+      "role": "AI Engineer",
+      "location": "Karachi, Pakistan (Remote)",
+      "dates": "July 2025 – Present",
+      "bullets": [
+        "Built an LLM-powered clinical decision-support agent that retrieves patient history to generate medication recommendations and AI-assisted diagnostic guidance.",
+        "Designed the retrieval, prompt, and output-guardrail layers for a production medical chatbot, improving the reliability of generated recommendations in a regulated domain.",
+        "Owned the full AI feature lifecycle: architecture, retrieval and prompt design, output validation, evaluation, deployment, and monitoring.",
+        "Built the retrieval and data layer (Node.js, PostgreSQL, Redis); caching and optimized queries improved data-access performance by **30%** for high-frequency inference calls."
+      ]
+    },
+    {
+      "company": "Kodexolabs",
+      "role": "AI Engineer",
+      "location": "Karachi, Pakistan (US Remote)",
+      "dates": "October 2024 – July 2025",
+      "bullets": [
+        "Built an AI-driven wellness platform with LangChain and RAG pipelines, normalizing third-party health data and retrieving context to generate personalized plans.",
+        "Developed an AI Virtual Trainer agent with agentic reasoning and personalization, increasing user engagement by **40%**; owned design, development, and deployment.",
+        "Engineered a GPT-Canvas-style streaming LLM renderer using token streaming and incremental rendering, achieving **98%** rendering accuracy.",
+        "Built SmartMedHx, an AI-assisted patient-intake system applying LLM extraction to automate clinical workflows."
+      ]
+    },
+    {
+      "company": "DotClick LLC",
+      "role": "Full Stack Engineer (Data & Platform)",
+      "location": "Karachi, Pakistan",
+      "dates": "August 2023 – October 2024",
+      "bullets": [
+        "Built Refill Arena from zero to **$1M+ revenue**, owning backend infrastructure, data models, and scalable APIs across **3,200+ brands** and **190+ countries**."
+      ]
+    },
+    {
+      "company": "Askari Technologies (Contract)",
+      "role": "Full Stack Engineer",
+      "location": "Karachi, Pakistan",
+      "dates": "December 2022 – June 2023",
+      "bullets": [
+        "Improved backend performance by **25%** through query optimization and caching; delivered features from requirements to deployment with remote stakeholders."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clinical Decision-Support Agent",
+      "tech": "LLM, RAG, Node.js, PostgreSQL",
+      "description": "Production agent grounding medication and diagnostic guidance in retrieved patient history, with prompt and output-guardrail design, evaluation, and monitoring."
+    },
+    {
+      "name": "Agentic Resume-Tailoring Pipeline",
+      "tech": "n8n, OpenAI, Google Sheets, Google Drive",
+      "description": "Autonomous multi-step LLM orchestration running overnight without manual input, generating tailored content and assembling applications end-to-end."
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Engineering in Computer System Engineering",
+      "org": "Dawood University of Engineering & Technology",
+      "location": "Karachi, Pakistan",
+      "year": "",
+      "description": "CGPA: 3.6/4.0"
+    }
+  ],
+  "skills": [
+    { "category": "AI / LLM", "items": "AI Agents, Agentic Workflows, Tool/Function Calling, RAG, Prompt Engineering, LLM Output Evaluation & Guardrails, LangChain, LangGraph, OpenAI, Streaming LLM UIs" },
+    { "category": "Languages / Backend", "items": "Python, TypeScript, JavaScript, Node.js, NestJS, FastAPI, REST APIs, GraphQL" },
+    { "category": "Data / Cloud / Ops", "items": "PostgreSQL, MongoDB, Redis, Embeddings & Vector Retrieval, Docker, CI/CD, GitHub Actions, AWS" }
+  ]
+}
