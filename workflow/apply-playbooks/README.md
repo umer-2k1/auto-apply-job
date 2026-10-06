@@ -27,6 +27,6 @@ Only for **recurring or well-known** platforms — ATS/boards we hit ~3+ times o
 | Platform | Playbook | Status |
 |---|---|---|
 | Workable | [workable.md](./workable.md) | ✅ created (2026-10-07, first apply) |
-| Ashby | — | pending (blocked roles so far: clearance/hybrid) |
+| Ashby | [ashby.md](./ashby.md) | ✅ mapped (2026-10-07); no submit yet — roles blocked |
 | Greenhouse | — | pending |
 | Lever | — | pending |

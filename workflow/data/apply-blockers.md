@@ -8,6 +8,9 @@ Jobs that could **not** be auto-submitted during an apply run. The agent records
 | 2026-10-07 | Mecka | Senior Full Stack Software Developer | https://jobs.ashbyhq.com/mecka.ai/737be260-7ade-48b3-a117-f6f03f9fc2ee/application | **Hybrid — Toronto GTA** (not remote) | N/A unless a remote variant exists |
 | 2026-10-07 | CodeRabbit | Software Engineer - Enterprise Engineering | https://jobs.ashbyhq.com/coderabbit/969cfd1b-b9c4-40dc-b198-476adb3a02a0/application | **Hybrid — San Francisco, 3 days/week in office** | N/A — on-site requirement |
 | 2026-10-07 | Hippocratic AI | Forward Deployed Engineer (Mid/Senior) | https://jobs.ashbyhq.com/Hippocratic%20AI/873d8ad7-9f41-48af-82a9-93ea6ed9139d/application | **US on-site commitment** (2–5x/week at customer site) + US states only | N/A — requires US presence |
+| 2026-10-07 | Baseten | Software Engineer - Partner Platform | https://jobs.ashbyhq.com/baseten/57204e3c-1431-49c5-919c-4fff65f5c3a5/application | **Hybrid — San Francisco** | N/A — on-site requirement |
+| 2026-10-07 | MeridianLink | AI Engineer II - Trust & Explainability | https://jobs.ashbyhq.com/meridianlink/e6f8bdc7-0859-45b9-bbc6-fdacfe402319/application | Requires **personal data not on file** (age range, EEO) + **US-resident role** | Add age range / EEO preference to profile, or skip US-resident roles |
+| 2026-10-07 | Ema | Platform Engineer, US | https://jobs.ashbyhq.com/ema/c57b5f2b-1793-41e8-91d4-ed33f1f0daca/application | **Posting expired** ("Job not found") | None — already closed |
 
 **Typical blockers:** login required · captcha/anti-bot · account creation · email-verification · resume-parser rejection · unsupported file · site down.
 **What's needed:** the single manual step or credential *you* provide — you log in in the browser tab, solve the captcha, or paste the missing answer.
