@@ -4,7 +4,7 @@ Companion to `applications.md` (which stays canonical and is NOT restructured). 
 
 | # | Date | Company | Role | Job URL | Apply URL | Status | Board/Platform | Method | Resume Used | Cover/Message | Networking | Notes |
 |---|------|---------|------|---------|-----------|--------|----------------|--------|-------------|---------------|-----------|-------|
-| | | | | | | | | | | | | |
+| 4 | 2026-10-07 | Gramian Consulting | Senior Software Engineer - AI Code Evaluation | https://www.choppingblock.ai/jobs/senior-software-engineer-ai-code-evaluation-at-gramian-consulting-740423 | https://apply.workable.com/gramian/j/C9DE7E0EF5/apply | Applied | Workable | ATS form | cv-muhammad-umer-gramian-2026-10-07.pdf | — | Medium | Contractor; Pakistan explicitly eligible; $35/hr; confirmation page captured |
 
 **Field notes**
 - **# / Date / Company / Role / Status** — mirror `applications.md`.
