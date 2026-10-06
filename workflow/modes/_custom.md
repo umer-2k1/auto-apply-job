@@ -47,6 +47,13 @@ Present the list(s) for my review, then stop.
 - **Blockers do not stall the run.** If a job needs a login/credential/captcha or is otherwise blocked: skip it, record it in the BLOCKED bucket (`data/apply-blockers.md`), continue with the rest, and we clear blockers afterwards.
 - Update the trackers immediately after EACH submission.
 
+### Apply filter rules (refined 2026-10-07)
+- **Apply to ALL remote roles — regardless of region** (US, EU, Poland, Canada, India, Singapore, Argentina, …).
+- **Skip on-site / hybrid** roles → record them (the user reviews whether to pursue).
+- **Skip Staff / Principal / Director / Lead-level** roles — the user is **mid–senior**, not staff.
+- **Skip giant companies** (e.g. Hugging Face, Reddit, Snowflake, GitLab, Typeform, OpenAI, GitHub, Meta, Apple) — low odds, wasted effort; prefer **lean/early-stage**.
+- On any blocker → **log it and continue** (never stall).
+
 ### Company research signals (per relevant job)
 Size · lean/small team · international employees · remote employees · hires internationally · contractors / remote contractors · employees from India / Pakistan / other countries · recent funding · recent hiring/growth · recent news · startup stage · founders/background · signs of active expansion · any signal that they may be receptive to international/remote talent.
 Purpose: **not** to reject a relevant job (a relevant job still gets applied to) — it decides which companies are worth **networking** with afterwards.
