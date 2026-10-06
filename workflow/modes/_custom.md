@@ -96,6 +96,36 @@ CV rules:
 - Section order: **Professional Summary → Skills → Work Experience → Projects → Education** (also enforced machine-side via `config/profile.yml` → `cv.sections`).
 - **Omit the "Core Competencies" section.** Keep a single "Skills" section and fold any unique competency terms into it — a separate competencies block is redundant next to Skills and is not required by ATS.
 
+## Third-Party Integrations — One CLI (`one`)
+
+The One CLI is installed and authenticated on this machine (account: mumer.2k1@gmail.com; config `~/.one/config.json`). It gives me access to **750+ platforms** (Gmail, Slack, Stripe, Notion, GitHub, HubSpot, etc.). **Whenever I need to interact with a 3rd-party platform or external service, use the One CLI** — it is the primary tool for integrations.
+
+**Always use `--agent`** (right after `one`) for structured JSON:
+- `one --agent list` — connected platforms + connection keys
+- `one --agent actions find <platform> "<intent>" [<platform> "<intent>" ...] [--task "<job>"]` — find every action a task needs, **with docs** (read them before executing)
+- `one --agent actions load <actionId> --section <name> | --full` — more of an action's doc
+- `one --agent actions execute <platform> <actionId> <connectionKey> -d '{...}'` — execute
+- `one --agent flow create` — multi-step workflows · `one --agent relay create` — webhook relay
+- `one --agent guide` — full docs · `one add <platform>` — connect a new platform (interactive)
+
+**Rules:** read the action's docs *before* executing; never guess parameters; **confirm with me before anything that sends, modifies, or deletes** external data; always use the connection key from `one --agent list`.
+
+**Job-search use:** read **Gmail** to auto-fetch email verification/security codes and sign-in links during applications (self-unblocking), and to classify recruiter replies.
+
+### ⚠️ Use the CLI, NOT the MCP
+The `one` **MCP** tools in this harness resolve to a *different One environment* — Gmail exec there fails with *"this connection belongs to a different environment"*. **Ignore the MCP; always use the `one` CLI**, which is authenticated and sees the Gmail connection.
+
+**Connection key (Gmail):** `live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80`
+
+**Read a verification/security code (verified working):**
+```bash
+one --agent actions execute gmail \
+  "conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA" \
+  "live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80" \
+  -d '{"connectionKey":"live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80","numberOfEmails":5,"query":"subject:(security code) newer_than:2d","format":"full"}'
+```
+The actionId `conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA` = Gmail "Get Emails" (search/list, `format:"full"|"metadata"`). Helper: `scripts/one-gmail-code.sh`. Env: if `one` is not on PATH, use `~/.nvm/versions/node/v22.23.1/bin/one`.
+
 ## Off-Limits
 
 - **NEVER scrape LinkedIn** (profile-ban risk), and never use or request LinkedIn sessions/cookies. Use the public web, news, X (Twitter) and company career pages only. If nothing is found, that is acceptable.
