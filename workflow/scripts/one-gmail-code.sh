@@ -5,6 +5,9 @@
 #   e.g. scripts/one-gmail-code.sh "from:greenhouse newer_than:1d" 5
 set -euo pipefail
 
+# `one` is a Node script; ensure node (nvm) is on PATH for its shebang.
+export PATH="$HOME/.nvm/versions/node/v22.23.1/bin:$PATH"
+
 ONE="${ONE_BIN:-$HOME/.nvm/versions/node/v22.23.1/bin/one}"
 KEY="${ONE_GMAIL_KEY:-live::gmail::default::3e1ab628917349c4af987d5a4ddb6f80}"
 ACTION="conn_mod_def::GGSNOTZxFUU::ZWXBuJboTpS3Q_U06pF8gA"   # Gmail "Get Emails"
