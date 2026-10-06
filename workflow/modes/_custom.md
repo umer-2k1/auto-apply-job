@@ -48,11 +48,15 @@ Present the list(s) for my review, then stop.
 - Update the trackers immediately after EACH submission.
 
 ### Apply filter rules (refined 2026-10-07)
-- **Apply to ALL remote roles — regardless of region** (US, EU, Poland, Canada, India, Singapore, Argentina, …).
+- **Apply to ALL remote roles — regardless of region** (US, EU, Poland, Bulgaria, Croatia, Romania, France, Canada, India, Singapore, Argentina, …).
+- **CONTRACT / contract-based roles = strong fit** → prioritise them (most likely to hire cross-border).
 - **Skip on-site / hybrid** roles → record them (the user reviews whether to pursue).
 - **Skip Staff / Principal / Director / Lead-level** roles — the user is **mid–senior**, not staff.
 - **Skip giant companies** (e.g. Hugging Face, Reddit, Snowflake, GitLab, Typeform, OpenAI, GitHub, Meta, Apple) — low odds, wasted effort; prefer **lean/early-stage**.
 - On any blocker → **log it and continue** (never stall).
+
+### Eligibility answers — ALWAYS truthful (hard rule)
+Never misrepresent **work authorisation, residency, location, or visa status**. For **US** roles, *"authorized to work in the US = Yes / no sponsorship = No"* is truthful per `config/profile.yml`. For any other country, answer **honestly** (e.g. "located in EU?" → **No**) and let the employer decide; if it filters the role out, move on to roles that don't gate on it. Do not fabricate eligibility to avoid a filter.
 
 ### Company research signals (per relevant job)
 Size · lean/small team · international employees · remote employees · hires internationally · contractors / remote contractors · employees from India / Pakistan / other countries · recent funding · recent hiring/growth · recent news · startup stage · founders/background · signs of active expansion · any signal that they may be receptive to international/remote talent.
