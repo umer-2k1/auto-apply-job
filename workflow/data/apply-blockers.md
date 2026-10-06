@@ -29,3 +29,4 @@ Jobs that could **not** be auto-submitted during an apply run. The agent records
 | 2026-10-07 | Gramian Consulting | Cybersecurity & SWE Specialist (AI Projects, contract) | https://apply.workable.com/j/4B6565637F/apply | Submit would not confirm (required radio/validation) | Retry/manual |
 | 2026-10-07 | webAI | CRDT Software Engineer | https://jobs.ashbyhq.com/webai/ac849bd2-1fd6-4fef-bbbb-a903d3813214/application | Ashby validation loop (Resume/Location/Auth keep clearing) | Retry/manual |
 | 2026-10-07 | Raydar | Senior Software Engineer (US, agency) | https://apply.workable.com/j/B842F2F7BC/apply | Submit would not confirm (validation) | Retry/manual |
+| 2026-10-07 | Runpod | FDE APAC / Senior ML Systems Engineer | https://jobs.ashbyhq.com/runpod/25e7d414-e338-42dc-a206-ca4727f3f98f/application | Ashby validation loop (custom widget) | Retry/manual |
