@@ -130,6 +130,7 @@ The helper (`scripts/one-gmail-code.sh`) resolves the Gmail connection key from 
 
 ## Off-Limits
 
+- **NEVER commit or push secrets/confidential data** — API keys, tokens, connection keys, cookies, callback/`s=` URLs, credentials. **Before every `git add`/`commit`/`push`, run `node scripts/scan-secrets.mjs`; if it reports a hit, STOP and fix it.** Never put a secret in a tracked file; keep secrets in env vars or dotfiles outside the repo.
 - **NEVER scrape LinkedIn** (profile-ban risk), and never use or request LinkedIn sessions/cookies. Use the public web, news, X (Twitter) and company career pages only. If nothing is found, that is acceptable.
 - Never restructure `data/applications.md` — career-ops scripts parse its schema.
 - Never add unverifiable claims to a CV or application (no fabrication).
