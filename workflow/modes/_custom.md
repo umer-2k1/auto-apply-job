@@ -14,7 +14,8 @@
      The agent reads this file alongside the system instructions;
      your rules here take precedence over the defaults, as long as
      they don't break the Data Contract (your files are never
-     touched, and we never auto-submit an application for you).
+     touched). Applications are submitted ONLY through the
+     Job-Search Workflow below (my explicit "apply" command).
 
      Because this is a user-layer file, anything you write here
      survives `node update-system.mjs`. Put customizations HERE,
@@ -24,14 +25,45 @@
 
 ## House Rules
 
-**Apply flow = PREPARE → my approval → AGENT AUTO-SUBMITS.** I do NOT want to fill or submit forms myself, ever. In apply mode:
+### Job-Search Workflow (DEFAULT — never wait to be reminded)
 
-1. **Prepare the complete application** in the live form via the browser (or from the JD if no browser is connected): every field value, every free-text answer, all sensitive/legal/self-identification/eligibility answers, the ATS's "Autofill from resume" where available, and the files to upload (tailored CV, cover letter if any) with their paths.
-2. **Present it to me as a review sheet and ask for feedback/approval** — this is the ONE checkpoint where I want to be asked. Batch every uncertain legal/eligibility question here so I answer them once, up front.
-3. **On my approval, drive the browser and click Submit on my behalf.** Do not stop before Submit once I have approved. Apply any corrections I give, then submit.
-4. **Confirm the submission** (success page, or ask me to check my email), then update the tracker to `Applied` and seed the follow-up automatically.
+Standing workflow for ANY job-search task. `AGENTS.md` points here. Two modes, two triggers.
 
-Gate: never submit an application I have not reviewed and approved. Approval is the only gate — after it, the agent owns the submission. If a site's captcha or anti-automation blocks the submit, tell me plainly and give me the single manual step that remains.
+**Mode 1 — FIND / SCRAPE.** Trigger: "scrape <site>", "find me <role> jobs", "grab jobs from <site>", or a pasted JD/link. Do ALL of the following, then **STOP** (do NOT apply):
+1. Scrape the relevant jobs within the task's scope from the given site/board/search/role.
+2. Filter to my profile (target roles, experience, skills, location/remote, work authorisation).
+3. Research the company behind EVERY relevant job (signals below).
+4. Rank / categorise the opportunities by how promising they are.
+5. Generate a tailored, source-backed resume per job (`cv.md`) into `output/`.
+6. Write the tracker rows and produce the networking shortlist.
+Present the list(s) for my review, then stop.
+
+**No fixed numbers.** "20 jobs" / "5 networking targets" are EXAMPLES ONLY — the real count is whatever the task and the pool of relevant roles produce.
+
+**Mode 2 — APPLY.** Trigger: "apply to these jobs" / "apply to all". 
+- Apply to every relevant scraped job that has a generated resume.
+- **Do NOT ask for approval.** The review already happened at the FIND stage; my "apply" command IS the approval.
+- Work through them in batches or one-by-one.
+- **Blockers do not stall the run.** If a job needs a login/credential/captcha or is otherwise blocked: skip it, record it in the BLOCKED bucket (`data/apply-blockers.md`), continue with the rest, and we clear blockers afterwards.
+- Update the trackers immediately after EACH submission.
+
+### Company research signals (per relevant job)
+Size · lean/small team · international employees · remote employees · hires internationally · contractors / remote contractors · employees from India / Pakistan / other countries · recent funding · recent hiring/growth · recent news · startup stage · founders/background · signs of active expansion · any signal that they may be receptive to international/remote talent.
+Purpose: **not** to reject a relevant job (a relevant job still gets applied to) — it decides which companies are worth **networking** with afterwards.
+
+### Networking shortlist
+After research, produce a **separate ranked file** (`data/networking.md`): **Highest / High / Medium** potential, each with a short "why" and the signals behind the ranking. I do the outreach; you identify + prioritise.
+
+### Tracking
+- Canonical applications: `data/applications.md` — **do not restructure it** (career-ops scripts depend on its schema).
+- Rich per-application detail: `data/applications-detail.md`.
+- Networking: `data/networking.md`. Blockers: `data/apply-blockers.md`.
+- Update immediately after every application; never re-apply to a job already recorded.
+
+### Playbooks
+- **Scraping playbooks:** `scrapers/<site>/README.md`. Create/refresh ONLY for recurring or well-known platforms (seen ~3+ times, or major ATS/boards: Greenhouse, Ashby, Lever, Workday, Wellfound, choppingblock). A one-off company career page needs NO playbook.
+- **Application playbooks:** `apply-playbooks/<platform>.md`. Same rule.
+- ALWAYS check the existing playbook first; reuse it; only re-investigate what changed; update it when you learn something new.
 
 When Muhammad explicitly asks to apply to a role despite its score or recommendation, proceed with application preparation without debating the recommendation. State factual blockers or unresolved eligibility only once, then prepare the strongest source-backed materials.
 
@@ -66,8 +98,7 @@ CV rules:
 
 ## Off-Limits
 
-<!-- Things the agent must never do for you. Examples:
-     - Never auto-fill or submit an application without showing me first.
-     - Never edit a system file to customize my setup -- put it here. -->
-
-(none yet -- add yours above)
+- **NEVER scrape LinkedIn** (profile-ban risk), and never use or request LinkedIn sessions/cookies. Use the public web, news, X (Twitter) and company career pages only. If nothing is found, that is acceptable.
+- Never restructure `data/applications.md` — career-ops scripts parse its schema.
+- Never add unverifiable claims to a CV or application (no fabrication).
+- Never treat example numbers ("20 jobs", "5 networking targets") as fixed requirements.

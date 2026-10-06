@@ -532,3 +532,16 @@ num\tdate\tcompany\trole\tstatus\tscore\tpdf\treport\tnotes\turl
 - No markdown bold (`**`) in status field
 - No dates in status field (use the date column)
 - No extra text (use the notes column)
+
+---
+
+## Job-Search Workflow — ALWAYS READ `modes/_custom.md` FIRST
+
+Before ANY job-search task (scrape · find · research · rank · resume · apply · track · networking), **read `modes/_custom.md`** — the full standing Job-Search Workflow lives there (user layer, never overwritten by updates). Trigger words, the two modes (FIND/SCRAPE vs APPLY), company-research signals, the networking shortlist, the trackers and the playbook rules are all defined there.
+
+Two rules to remember at all times:
+
+- **"scrape / find jobs" ⇒ scrape + research + rank + generate tailored resumes + write trackers, then STOP. Do NOT apply.**
+- **"apply" ⇒ apply to the relevant jobs with the generated resumes, in batches, without asking for approval; skip blockers into `data/apply-blockers.md` and continue.**
+
+Playbooks: `scrapers/<site>/README.md` (scraping) · `apply-playbooks/<platform>.md` (applying). Always reuse an existing playbook before re-investigating a site.
