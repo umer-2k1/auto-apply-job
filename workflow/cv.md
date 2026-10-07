@@ -20,6 +20,12 @@ AI Engineer who designs and ships LLM-powered systems end-to-end at early-stage 
 
 ## Experience
 
+### AI Product Engineer — Little Angel Medical (littleangelmedical.com)
+*Canada (Remote)*
+
+- Worked end to end on the LAM Child Health App, an AI-powered pediatric health platform: video/sound-based child health checks (flat head, cough, skin, throat, vitals) and the LIA pediatric triage chatbot.
+- Owned the product/engineering loop from prototype to release for AI features used by parents.
+
 ### AI Engineer — Sybrid Private Limited
 *Karachi, Pakistan (Remote) · July 2025–Present*
 

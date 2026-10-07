@@ -1,0 +1,82 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Muhammad Umer",
+    "title": "AI Product Engineer",
+    "phone": "+92-3153271442",
+    "email": "mumer.2k1@gmail.com",
+    "linkedin": { "url": "https://www.linkedin.com/in/mumer2001/", "display": "linkedin.com/in/mumer2001" },
+    "github": { "url": "https://github.com/umer-2k1", "display": "github.com/umer-2k1" },
+    "portfolio": { "url": "https://umer2k1.com", "display": "umer2k1.com" },
+    "location": "Karachi, Pakistan · Remote (US overlap)"
+  },
+  "summary": "AI Product Engineer who owns AI features end to end — product and architecture through to shipped, monitored production systems. I've built AI in healthcare: an AI pediatric health app (video/sound-based health checks and a triage chatbot) and a clinical decision-support agent with retrieval, prompt and output-guardrail design, evaluation and monitoring. Strong Python/TypeScript/Node.js, LangChain/LangGraph, PostgreSQL and AWS, with a product mindset and high ownership.",
+  "experience": [
+    {
+      "company": "Little Angel Medical (littleangelmedical.com)",
+      "role": "AI Product Engineer",
+      "location": "Canada (Remote)",
+      "dates": "2025 – Present",
+      "bullets": [
+        "Worked end to end on the LAM Child Health App — an AI-powered pediatric health platform with video/sound-based child health checks (flat head, cough, skin, throat, vitals) and the LIA pediatric triage chatbot.",
+        "Owned the product/engineering loop from prototype to release: AI feature design, model/API integration, and the workflows parents use."
+      ]
+    },
+    {
+      "company": "Sybrid Private Limited",
+      "role": "AI Engineer",
+      "location": "Karachi, Pakistan (Remote)",
+      "dates": "July 2025 – Present",
+      "bullets": [
+        "Built an LLM-powered clinical decision-support agent that retrieves patient history to generate medication recommendations and AI-assisted diagnostic guidance.",
+        "Designed the retrieval, prompt, and output-guardrail layers for a production medical chatbot, evaluating output and improving reliability in a regulated domain.",
+        "Owned the full AI feature lifecycle: architecture, retrieval and prompt design, output validation, evaluation, deployment, and monitoring."
+      ]
+    },
+    {
+      "company": "Kodexolabs",
+      "role": "AI Engineer",
+      "location": "Karachi, Pakistan (US Remote)",
+      "dates": "October 2024 – July 2025",
+      "bullets": [
+        "Built an AI-driven wellness platform with LangChain and RAG pipelines, normalizing third-party health data to generate personalized plans.",
+        "Developed an AI Virtual Trainer agent with agentic reasoning and personalization, increasing user engagement by **40%**; owned design, development, and deployment.",
+        "Built SmartMedHx, an AI-assisted patient-intake system applying LLM extraction to automate clinical workflows."
+      ]
+    },
+    {
+      "company": "DotClick LLC",
+      "role": "Full Stack Engineer (Data & Platform)",
+      "location": "Karachi, Pakistan",
+      "dates": "August 2023 – October 2024",
+      "bullets": [
+        "Built a platform from zero to **$1M+ revenue**, owning backend infrastructure, data models, and scalable APIs across **3,200+ brands** and **190+ countries**."
+      ]
+    },
+    {
+      "company": "Askari Technologies (Contract)",
+      "role": "Full Stack Engineer",
+      "location": "Karachi, Pakistan",
+      "dates": "December 2022 – June 2023",
+      "bullets": [
+        "Delivered features end to end with remote stakeholders; improved backend performance by **25%**."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clinical Decision-Support Agent",
+      "tech": "LLM, RAG, Node.js, PostgreSQL",
+      "description": "Production agent grounding guidance in retrieved patient history, with prompt and output-guardrail design and monitoring."
+    }
+  ],
+  "education": [
+    { "title": "Bachelor of Engineering in Computer System Engineering", "org": "Dawood University of Engineering & Technology", "location": "Karachi, Pakistan", "year": "", "description": "CGPA: 3.6/4.0" }
+  ],
+  "skills": [
+    { "category": "AI / LLM", "items": "AI Agents, RAG, Prompt Engineering, LLM Output Evaluation & Guardrails, LangChain, LangGraph, OpenAI, Applied AI in healthcare" },
+    { "category": "Product / Full-Stack", "items": "Product Engineering, End-to-End Ownership, TypeScript, Node.js, NestJS, Next.js, REST APIs, PostgreSQL, Redis" },
+    { "category": "Cloud / Ops", "items": "AWS, Docker, CI/CD, GitHub Actions, Monitoring" }
+  ]
+}
