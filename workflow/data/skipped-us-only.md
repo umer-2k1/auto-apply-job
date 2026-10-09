@@ -64,4 +64,6 @@ _Auto-applies were skipped for these because the scope is US-only. You can still
 | 58 | W2 | Anyscale | Staff Software Engineer, Platform Infrastructure (Foundations) | Ashby | https://jobs.ashbyhq.com/anyscale/02ed9406-2b43-4009-a80f-2dd94e2f6e96/application |
 | 59 | W2 | Samsara | Senior Platform Engineer, Growth Product Engineering | other | https://www.samsara.com/company/careers/roles/8223367?gh_jid=8223367&ref=aichoppingblock |
 | 60 | W2 | Snowflake | Senior Software Engineer - Cortex AI Infrastructure | Ashby | https://jobs.ashbyhq.com/snowflake/79e0f681-fed6-42cc-9754-9e150e056c5a/application |
-| 61 | W2 | CrowdStrike | Sr. Engineer - Platform Data Engineer (Remote) | Workday | https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Sr-Engineer---Platform-Data-Engineer--Remote-_R30175 |
+| 61 | W2 | CrowdStrike | Sr. Engineer - Platform Data Engineer (Remote) | Workday | https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Sr-Engineer---Platform-Data-Engineer--Remote-_R30175 || 62 | direct | Eulerity | Forward Deployed Engineer | Greenhouse | https://job-boards.greenhouse.io/eulerity/jobs/4698580006 |
+
+_(#62 Eulerity — NOT submitted: on-site NYC Midtown ≥4 days/week + requires US work authorization without sponsorship. Their required Google Form asks "willing & able to commute to NYC Midtown ≥4x/week?". Apply instantly if both answers are true: reply "apply eulerity".)_
