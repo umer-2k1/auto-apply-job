@@ -67,3 +67,7 @@ _Auto-applies were skipped for these because the scope is US-only. You can still
 | 61 | W2 | CrowdStrike | Sr. Engineer - Platform Data Engineer (Remote) | Workday | https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Sr-Engineer---Platform-Data-Engineer--Remote-_R30175 || 62 | direct | Eulerity | Forward Deployed Engineer | Greenhouse | https://job-boards.greenhouse.io/eulerity/jobs/4698580006 |
 
 _(#62 Eulerity — NOT submitted: on-site NYC Midtown ≥4 days/week + requires US work authorization without sponsorship. Their required Google Form asks "willing & able to commute to NYC Midtown ≥4x/week?". Apply instantly if both answers are true: reply "apply eulerity".)_
+| 63 | direct | Thoughtly | Senior Software Engineer, Product | homerun.co | https://thoughtly.homerun.co/senior-software-engineer-product |
+| 64 | direct | Pirros | Member Technical Staff | Ashby | https://jobs.ashbyhq.com/pirros/00a801c4-4fca-4be8-bf29-d0bd870c61f5/application |
+
+_(#63 Thoughtly — NOT submitted: Hybrid, New York City-based role ($200–250k). #64 Pirros — NOT submitted: On-site Los Angeles, form requires "require visa sponsorship?" and "OK with in-office (LA)?". Both fail the remote-only filter and cannot be submitted with truthful answers; will not be filed with false eligibility.)_
