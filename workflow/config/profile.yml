@@ -52,7 +52,7 @@ compensation:
   target_range: "$3,000–$4,000 USD/month base, or $30–$40 USD/hour"
   currency: "USD"
   minimum: "$3,000 USD/month base or $30 USD/hour"
-  location_flexibility: "Contract-based work prioritized; remote anywhere, including US-only and Europe-only remote roles, remote employment, remote contracting, and US-based on-site roles are in scope. Flag work-authorization or residency restrictions for confirmation; do not assume eligibility."
+  location_flexibility: "Contract-based work prioritized; remote anywhere, plus on-site and hybrid roles, are in scope (US-only/Europe-only remote, remote employment, remote contracting, US-based on-site and hybrid). Flag work-authorization or residency restrictions for confirmation; do not assume eligibility."
 
 seniority:
   target: "Senior or mid-level"
@@ -64,7 +64,7 @@ seniority:
 location:
   country: "Pakistan"
   city: "Karachi"
-  visa_status: "Authorized to work in the United States; no current or future sponsorship required."
+  visa_status: "Authorized to work in the United States; no current or future sponsorship required. (User-stated 2026-10-09: holds a US work permit.)"
   authorized_in:
     - "United States"
   needs_sponsorship: false

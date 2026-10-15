@@ -47,10 +47,10 @@ Present the list(s) for my review, then stop.
 - **Blockers do not stall the run.** If a job needs a login/credential/captcha or is otherwise blocked: skip it, record it in the BLOCKED bucket (`data/apply-blockers.md`), continue with the rest, and we clear blockers afterwards.
 - Update the trackers immediately after EACH submission.
 
-### Apply filter rules (refined 2026-10-07)
+### Apply filter rules (refined 2026-10-09)
 - **Apply to ALL remote roles — regardless of region** (US, EU, Poland, Bulgaria, Croatia, Romania, France, Canada, India, Singapore, Argentina, …).
 - **CONTRACT / contract-based roles = strong fit** → prioritise them (most likely to hire cross-border).
-- **Skip on-site / hybrid** roles → record them (the user reviews whether to pursue).
+- **On-site / hybrid roles = INCLUDE (changed 2026-10-09).** Do not skip them — apply to on-site and hybrid roles too, alongside remote. Location type is no longer a reason to skip. Eligibility is still answered **truthfully** (see the hard rule below): if a role gates on US residency / work authorization that is not true, log it as blocked; if the truthful answers pass, submit.
 - **Skip Staff / Principal / Director / Lead-level** roles — the user is **mid–senior**, not staff.
 - **Skip giant companies** (e.g. Hugging Face, Reddit, Snowflake, GitLab, Typeform, OpenAI, GitHub, Meta, Apple) — low odds, wasted effort; prefer **lean/early-stage**.
 - On any blocker → **log it and continue** (never stall).

@@ -14,3 +14,11 @@ Companion to `applications.md` (which stays canonical and is NOT restructured). 
 - **Resume Used** — filename in `output/` (e.g. `cv-muhammad-umer-seai-2026-10-06.pdf`).
 - **Networking** — `Highest` / `High` / `Medium` / `—` (mirrors `networking.md`).
 - Update **immediately** after each submission; never apply to a row already recorded.
+
+## 17 — evlo.ai — Software Engineer - Full Stack
+- **Applied:** 2026-10-15 · **Platform:** evlo.ai (frontier-AI training / expert data platform)
+- **URL:** https://evlo.ai/jobs/apply/bf-g0070-s26
+- **Resume:** output/cv-muhammad-umer-evlo-2026-10-15.pdf (full-stack tailored)
+- **Steps:** Upload resume → Contact → Employment → Eligibility → Self-ID → Applied. Result: "🎉 You've applied".
+- **FLAGGED GUESSES (verify):** zip=75500 (Karachi), willing to relocate=No, desired comp=Prefer not to say, earliest available=2026-10-16.
+- **Eligibility (per user-stated US work permit):** requires sponsorship=No; US gov employee=No; DoD clearance=No; can present work-auth proof=Yes; subject to restrictions=No.
