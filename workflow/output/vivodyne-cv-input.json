@@ -1,0 +1,89 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Muhammad Umer",
+    "title": "Senior Full Stack Software Engineer",
+    "phone": "+92-3153271442",
+    "email": "mumer.2k1@gmail.com",
+    "linkedin": { "url": "https://www.linkedin.com/in/mumer2001/", "display": "linkedin.com/in/mumer2001" },
+    "github": { "url": "https://github.com/umer-2k1", "display": "github.com/umer-2k1" },
+    "portfolio": { "url": "https://umer2k1.com", "display": "umer2k1.com" },
+    "location": "Remote · US Eastern/Central hours"
+  },
+  "summary": "Full-stack engineer who leads with frontend: building rich, stateful React/TypeScript interfaces backed by Python (FastAPI) and Node.js services on PostgreSQL. Built Refill Arena from zero to $1M+ revenue across 3,200+ brands in 190+ countries, owning the UI, relational schema, APIs and data pipelines. AI-native — I build daily with LLMs and agentic coding tools (Claude Code, Codex, Cursor) to prototype fast and ship reliable, tested code, with strong data-modelling and query-optimisation instincts.",
+  "experience": [
+    {
+      "company": "Little Angel Medical (littleangelmedical.com)",
+      "role": "Full Stack Engineer",
+      "location": "Remote (US hours)",
+      "dates": "2025 – Present",
+      "bullets": [
+        "Built data-dense product UIs in React/Next.js with a Node.js/PostgreSQL API, including media-heavy flows (video/sound capture and playback).",
+        "Owned features from ambiguous requirements to release, working US hours with a remote team."
+      ]
+    },
+    {
+      "company": "Sybrid Private Limited",
+      "role": "Software Engineer",
+      "location": "Remote (US hours)",
+      "dates": "July 2025 – Present",
+      "bullets": [
+        "Built APIs and the data layer with Node.js, PostgreSQL and Redis; improved data-access performance by **30%** with schema/query optimisation and caching.",
+        "Designed retrieval and validation services over structured data, with automated tests and monitoring."
+      ]
+    },
+    {
+      "company": "Kodexolabs",
+      "role": "Software Engineer",
+      "location": "Remote (US hours)",
+      "dates": "October 2024 – July 2025",
+      "bullets": [
+        "Built a consumer web app with Next.js/TypeScript and NestJS APIs on PostgreSQL; shipped a feature that raised engagement **40%**.",
+        "Built a streaming renderer using token streaming and incremental rendering at **98%** rendering accuracy — high-performance, stateful React UI work.",
+        "Built an AI-assisted intake system (Next.js, NestJS, PostgreSQL) applying LLM extraction to automate a manual workflow."
+      ]
+    },
+    {
+      "company": "DotClick LLC",
+      "role": "Full Stack Engineer (Data & Platform)",
+      "location": "Remote",
+      "dates": "August 2023 – October 2024",
+      "bullets": [
+        "Built Refill Arena from zero to **$1M+ revenue** — owned the React front end, relational schema, REST APIs and high-throughput data ingestion across **3,200+ brands** / **190+ countries**.",
+        "Modelled and normalised data for search and reporting; kept services at **99.9% uptime** with automation and monitoring."
+      ]
+    },
+    {
+      "company": "Askari Technologies (Contract)",
+      "role": "Full Stack Engineer",
+      "location": "Remote",
+      "dates": "December 2022 – June 2023",
+      "bullets": [
+        "Improved backend performance **25%** through query optimisation and caching; built JWT auth and Stripe subscription flows.",
+        "Delivered features independently from requirements through deployment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Design Heaven",
+      "tech": "React, Node.js, Fabric.js, FFmpeg",
+      "description": "Fullstack visual design tool for poster and video editing — rendering, media and asset pipeline owned end-to-end (rich, stateful React UI)."
+    },
+    {
+      "name": "Agentic Resume-Tailoring Pipeline",
+      "tech": "n8n, OpenAI, Google Sheets/Drive",
+      "description": "Fully autonomous LLM pipeline using multi-step agentic orchestration; saves 90%+ of manual time — an example of AI-accelerated delivery."
+    }
+  ],
+  "education": [
+    { "title": "Bachelor of Engineering in Computer System Engineering", "org": "Dawood University of Engineering & Technology", "location": "Karachi, Pakistan", "year": "", "description": "CGPA: 3.6/4.0" }
+  ],
+  "skills": [
+    { "category": "Frontend", "items": "React, TypeScript, Next.js, state management, component architecture, performance profiling, CSS/Tailwind" },
+    { "category": "Backend / Data", "items": "Python (FastAPI, Pydantic), Node.js, NestJS, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis, data modelling & query optimisation" },
+    { "category": "Cloud / Ops", "items": "AWS, Docker, CI/CD, GitHub Actions, testing" },
+    { "category": "AI-native", "items": "LLMs, agentic coding tools (Claude Code, Codex, Cursor), RAG, prompt engineering" }
+  ]
+}

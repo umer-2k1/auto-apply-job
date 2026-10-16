@@ -1,0 +1,89 @@
+{
+  "lang": "en",
+  "page_format": "a4",
+  "candidate": {
+    "name": "Muhammad Umer",
+    "title": "Senior Software Engineer",
+    "phone": "+92-3153271442",
+    "email": "mumer.2k1@gmail.com",
+    "linkedin": { "url": "https://www.linkedin.com/in/mumer2001/", "display": "linkedin.com/in/mumer2001" },
+    "github": { "url": "https://github.com/umer-2k1", "display": "github.com/umer-2k1" },
+    "portfolio": { "url": "https://umer2k1.com", "display": "umer2k1.com" },
+    "location": "Remote (US Eastern/Central hours)"
+  },
+  "summary": "Software engineer who builds enterprise-grade APIs and platform features end-to-end — Node.js/TypeScript services, React UIs, PostgreSQL data models and AWS infrastructure. Built Refill Arena from zero to $1M+ revenue across 3,200+ brands and 190+ countries, owning the relational schema, scalable APIs and third-party data integrations. Comfortable moving between API development, UI/UX and data-integration work as priorities shift, with strong SQL/analytical skills and a bias for ownership.",
+  "experience": [
+    {
+      "company": "Little Angel Medical (littleangelmedical.com)",
+      "role": "Software Engineer",
+      "location": "Remote (US hours)",
+      "dates": "2025 – Present",
+      "bullets": [
+        "Built platform features end-to-end — React front end on a Node.js/PostgreSQL API, plus media pipelines and product workflows.",
+        "Owned features from ambiguous requirements through release, working US hours with a remote team."
+      ]
+    },
+    {
+      "company": "Sybrid Private Limited",
+      "role": "Software Engineer",
+      "location": "Remote (US hours)",
+      "dates": "July 2025 – Present",
+      "bullets": [
+        "Built REST APIs and the data layer (Node.js, PostgreSQL, Redis); improved data-access performance by **30%** with caching and query optimization.",
+        "Designed services that integrate third-party data and validate outputs before they reach users."
+      ]
+    },
+    {
+      "company": "Kodexolabs",
+      "role": "Software Engineer",
+      "location": "Remote (US hours)",
+      "dates": "October 2024 – July 2025",
+      "bullets": [
+        "Built a consumer web app with Next.js/TypeScript, NestJS APIs and PostgreSQL, shipping features that raised engagement **40%**.",
+        "Owned front-end UX and backend API integration for a data-heavy intake product."
+      ]
+    },
+    {
+      "company": "DotClick LLC",
+      "role": "Full Stack Engineer (Data & Platform)",
+      "location": "Remote",
+      "dates": "August 2023 – October 2024",
+      "bullets": [
+        "Built Refill Arena from zero to **$1M+ revenue** — designed the relational schema, scalable REST APIs and front end across **3,200+ brands** in **190+ countries**.",
+        "Normalized and modelled data to power search and reporting; kept services at **99.9% uptime** with automation and monitoring.",
+        "Integrated multiple third-party data suppliers and built internal tools that cut manual operations work."
+      ]
+    },
+    {
+      "company": "Askari Technologies (Contract)",
+      "role": "Full Stack Engineer",
+      "location": "Remote",
+      "dates": "December 2022 – June 2023",
+      "bullets": [
+        "Improved backend performance **25%** via query optimization and caching; built JWT auth and Stripe subscription flows.",
+        "Delivered features independently from requirements through deployment, working async with US stakeholders."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Refill Arena",
+      "tech": "Node.js, PostgreSQL, Redis, React",
+      "description": "Consumer data platform scaled to $1M+ revenue across 3,200+ brands and 190+ countries; owned schema, APIs and data integrations."
+    },
+    {
+      "name": "Design Heaven",
+      "tech": "React, Node.js, Fabric.js, FFmpeg",
+      "description": "Fullstack visual design tool for poster and video editing; owned the rendering, media and asset pipeline end-to-end."
+    }
+  ],
+  "education": [
+    { "title": "Bachelor of Engineering in Computer System Engineering", "org": "Dawood University of Engineering & Technology", "location": "Karachi, Pakistan", "year": "", "description": "CGPA: 3.6/4.0" }
+  ],
+  "skills": [
+    { "category": "Languages", "items": "TypeScript, JavaScript, Python, SQL" },
+    { "category": "Backend / APIs", "items": "Node.js, NestJS, REST APIs, GraphQL, PostgreSQL, MongoDB, Redis" },
+    { "category": "Frontend", "items": "React, Next.js, HTML/CSS" },
+    { "category": "Cloud / Data", "items": "AWS, Docker, CI/CD, GitHub Actions, data modelling, third-party integrations" }
+  ]
+}

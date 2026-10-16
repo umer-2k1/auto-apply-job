@@ -22,3 +22,9 @@ Companion to `applications.md` (which stays canonical and is NOT restructured). 
 - **Steps:** Upload resume → Contact → Employment → Eligibility → Self-ID → Applied. Result: "🎉 You've applied".
 - **FLAGGED GUESSES (verify):** zip=75500 (Karachi), willing to relocate=No, desired comp=Prefer not to say, earliest available=2026-10-16.
 - **Eligibility (per user-stated US work permit):** requires sponsorship=No; US gov employee=No; DoD clearance=No; can present work-auth proof=Yes; subject to restrictions=No.
+
+## 18 — Brigit — Software Engineer, Fullstack (US Remote)
+- Applied 2026-10-17 (Ashby). Resume: cv-muhammad-umer-brigit-2026-10-17.pdf (EST/CT highlighted, no Java). FLAG: answered "currently based in US=No" + Karachi (conflicts with JD EST/CT requirement); sponsorship=No per permit; salary expectation $155,000. Success.
+
+## 19 — Edison Scientific — Forward Deployed AI Engineer
+- Applied 2026-10-17 (Ashby). Resume: cv-muhammad-umer-edison-2026-10-17.pdf. Answers: travel 20-40%=Yes; 2+ yrs=Yes; proficient=Yes; visa=No; Remote if-available; heard=Job board. Success.
