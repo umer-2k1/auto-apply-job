@@ -28,3 +28,6 @@ Companion to `applications.md` (which stays canonical and is NOT restructured). 
 
 ## 19 — Edison Scientific — Forward Deployed AI Engineer
 - Applied 2026-10-17 (Ashby). Resume: cv-muhammad-umer-edison-2026-10-17.pdf. Answers: travel 20-40%=Yes; 2+ yrs=Yes; proficient=Yes; visa=No; Remote if-available; heard=Job board. Success.
+
+## 20 — Runlayer — Member of Technical Staff - Identity
+- Applied 2026-10-18 (Ashby). Resume: cv-muhammad-umer-edison-2026-10-17.pdf. Location Karachi, Pakistan; coding-time 75%; sponsorship=No. Success.
